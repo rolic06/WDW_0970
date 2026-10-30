@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL ROOM BOOKING FORMAT</title>
+</head>
+
+<body>
+    <table border="3" align="center" height="250" width="50%"> <td>
+        <form><fieldset>
+
+            <h1 align="center">HOTEL ROOM BOOKING FORMAT</h1>
+            <center>
+                <legend align="center"><b>Personal information</b></legend><br><hr>
+                <label for="fullname"> Full Name:<input type="text"></label><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br> 
+                Phone:<input type="number"><br><br>
+                Check-in-Date:<input type="date"><br> <br>
+                Check-out-Date:<input type="date"><br><br>
+                Room Type:
+                <select>
+                    <option>Single Room</option>
+                    <option>Double Room</option>
+                    <option>Triple Room</option>
+                    <option>Special Room</option>
+                </select><br><br>
+                Number of Guests:<input type="text" min="1" max="10" required><br><br>
+                Special Requests:<br>
+                <textarea rows="5" cols="50"></textarea><br><br>
+                <button type="Book Now">Book Now</button>
+                <button type="Reset Form">Reset Form</button></td>
+            </fieldset>
+         </form>
+
+        </center>
+    </table>
+
+</body>
+
+</html>
