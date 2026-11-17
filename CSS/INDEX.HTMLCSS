@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="color:blue; font-size: 45px; font-family: Arial, sans-serif; background-color: rgb(44, 202, 202);">
+        HOW TO ADD CSS IN HTML DOCUMENT
+    </h1>
+    <ol>
+        <li>Inline CSS</li>
+        <li>Internal CSS</li>
+        <li>External CSS</li>
+</body>
+
+</html>
