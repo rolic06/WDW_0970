@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assingment17</title>
+</head>
+<body>
+    <form action="sumbit_form.php" method="post">
+        <fieldset>
+            <input type="text" id="name " name="name" placeholder="Full name" required>
+            <br><br>
+            <input type="email" id="email" name="email" placeholder="you@college.edu" required>
+            <br><br>
+            <input type="tel" id="phone" name="phone" placeholder="10-digit mobile" max="10" inputmode="numeric" required> 
+            <!-- u can use inputmode="numeric" pattern="[0-9]{10}" -->
+            <br><br>
+            <input type="text" id="description" name="description" placeholder="Min 6 characters" min="6" required>
+            <br><br>
+            <input type="number" name="age" id="age" placeholder="Age(17-34)" min="17" max="34">
+            <br><br>
+            <button type="register" value="registration">Register</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
